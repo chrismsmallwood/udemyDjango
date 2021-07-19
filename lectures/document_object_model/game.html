@@ -14,34 +14,35 @@
     <div class="bg-light p-5 rounded-lg m-3">
       <h1 class="display-4">Welcome to Tic Tac Toe!</h1>
       <!-- <hr class="my-4"> -->
-      <a class="btn btn-primary btn-lg" href="game.html" role="button">Restart</a>
+      <a class="btn btn-primary btn-lg" id="restartButton" role="button">Restart</a>
     </div>
     </div>
 
     <div class="container", id='gameBoard'>
-    <table border=1, id='board'>
+    <table align='center' id='board'>
       <tr id='row1'>
-        <td id='1a', class='box'></td>
-        <td id='1b', class='box'></td>
-        <td id='1c', class='box'>'O'</td>
+        <td id='onea', class='box'></td>
+        <td id='oneb', class='box'></td>
+        <td id='onec', class='box'></td>
       </tr>
       <tr id='row2'>
-        <td id='2a', class='box'></td>
-        <td id='2b', class='box'></td>
-        <td id='2c', class='box'></td>
+        <td id='twoa', class='box'></td>
+        <td id='twob', class='box'></td>
+        <td id='twoc', class='box'></td>
       </tr>
       <tr id='row3'>
-        <td id='3a', class='box'></td>
-        <td id='3b', class='box'></td>
-        <td id='3c', class='box'></td>
+        <td id='threea', class='box'></td>
+        <td id='threeb', class='box'></td>
+        <td id='threec', class='box'></td>
       </tr>
     </table>
     </div>
 
     <div class="container">
-      <h1 id='testHead'>Test JS</h1>
+      <h1 align='center' id='playerTurn'>X Goes First</h1>
+      <h1 align='center' id='testHead'>Test JS</h1>
     </div>
-    
+
     <script type="text/javascript" src='game.js'></script>
 
   </body>
