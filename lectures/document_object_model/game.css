@@ -1,12 +1,9 @@
 /* Styling of the Page */
 
-.board{
-  margin: auto;
-  text-align: center;
-}
-
 td{
   height: 150px;
   width: 150px;
-  /*border: 100px, black;*/
+  border: 5px solid black;
+  text-align: center;
+  font-size: 100px;
 }
